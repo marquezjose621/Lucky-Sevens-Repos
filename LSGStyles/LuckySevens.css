@@ -1,0 +1,47 @@
+/*
+	Name: Jose Ezequiel Marquez
+	Date Created: December 3rd 2019
+	Most Recent Revision: December 7th 2019
+	
+	CSS for Lucky Sevens Game
+*/
+
+header {
+    font-family: 'Monoton', cursive;
+	text-shadow: 5px 5px 10px black;
+}
+body {
+    width: 100%;
+	background-color: LemonChiffon;
+}
+
+.jumbotron {
+	background-color:LightBlue !important; 
+	border-style:solid;
+}
+
+.initial-layout {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.restart-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+table {
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+
+table tr:nth-child(odd) {
+	background-color: LightSlateGrey 
+}
+
+table tr:nth-child(even) {
+	background-color: LightSteelBlue;
+}
